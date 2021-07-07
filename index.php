@@ -1,6 +1,6 @@
 <?php     
 if($_SERVER["REQUEST_METHOD"] == "POST") {
-  $to_email = 'jevlopez47@gmail.com';
+  $to_email = 'turbostaff.ph@gmail.com';
   $subject = 'Customer inquiry';
   $message = $_REQUEST['message'];
   $sender = $_REQUEST['email'];
@@ -15,6 +15,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="TurboStaff Services">
+  <meta property="og:description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="TurboStaff">
 
   <!-- Tab Icon -->
   <link rel="icon" href="images/icon.png">
@@ -24,12 +30,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
   <link rel="stylesheet" type="text/css" href="style.css">
 
-  <title>TurboStaff</title>
+  <title>TurboStaff Services</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="TurboStaff logo"></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
         <span class="navbar-toggler-icon"></span>
@@ -119,22 +125,22 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
     <div class="row offers mt-5 justify-content-center gy-5">
       <div class="col-sm-5 text-center px-5">
-        <img src="images/sc1.png" class="img-fluid">
+        <img src="images/sc1.png" class="img-fluid" alt="Payment / Transactions">
         <h4 class="my-4 text-secondary">Transactions</h4>
         <p class="text-secondary">We transact for notary and permit submissions to FDA,BOQ, OMB and other Government Agencies.</p>
       </div>
       <div class="col-sm-5 text-center px-5">
-        <img src="images/sc2.png" class="img-fluid">
+        <img src="images/sc2.png" class="img-fluid" alt="Printer">
         <h4 class="my-4 text-secondary">Printing</h4>
         <p class="text-secondary">For your documents, we print and photocopy for your site needs.</p>
       </div>
       <div class="col-sm-5 text-center px-5">
-        <img src="images/briefcase.png" class="img-fluid">
+        <img src="images/briefcase.png" class="img-fluid" alt="Briefcase">
         <h4 class="my-4 text-secondary">Insurance</h4>
         <p class="text-secondary">We guarantee optimum protection for your valuable items.</p>
       </div>
       <div class="col-sm-5 text-center px-5">
-        <img src="images/fast-delivery.jpg" class="img-fluid">
+        <img src="images/fast-delivery.jpg" class="img-fluid" alt="Fast Delivery Nationwide!">
         <h4 class="my-4 text-secondary">Nationwide</h4>
         <p class="text-secondary">We deliver to all major sites and hospitals in the Philippines.</p>
       </div>
@@ -201,6 +207,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     if ( window.history.replaceState ) {
       window.history.replaceState( null, null, window.location.href );
     }
+  </script>
+  <script>
+
   </script>
 </body>
 </html>
