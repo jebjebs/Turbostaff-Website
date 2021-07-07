@@ -16,7 +16,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="all">
   <meta property="og:title" content="TurboStaff Services">
   <meta property="og:description" content="TURBOSTAFF SERVICES is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas and Mindanao that focuses on providing professional,classified, high-quality service, customer satisfaction and reliable partner for all your needs. We offer economical service without compromising the quality of our service.">
   <meta property="og:url" content="">
