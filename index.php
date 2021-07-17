@@ -32,10 +32,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
   <title>TurboStaff Services</title>
 </head>
+
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="TurboStaff logo"></a>
+      <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="TurboStaff logo"></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
         <span class="navbar-toggler-icon"></span>
@@ -51,9 +53,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
   </nav>
 
+
   <div class="banner section d-flex flex-column pb-5">
     <h1 class="display-1 align-self-center mt-5 pt-5 text-primary text-center" style="text-shadow: 2px 2px 12px black;">WE PROVIDE HIGH-QUALITY SERVICE</h1>
-    <i class="fas fa-arrow-down align-self-center mt-auto text-accent"></i>
+    <i class="fas fa-arrow-down align-self-center mt-auto text-primary" style="text-shadow: 2px 2px 12px black;"></i>
   </div> 
 
   <div id="who-we-are" class="who-we-are section container-fluid bg-primary">
@@ -69,10 +72,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
           </div>
         </div>
         <h1 class="text-center text-primary my-5">ECONOMICAL SERVICE WITHOUT COMPROMISE.</h1>
-        <p class="text-white">
+        <video width="100%" height="auto" poster="images/vid-poster.png" controls>
+          <source src="images/turbo-vid.mp4" type="video/mp4">
+        </video>
+        <p class="text-white mt-4">
           <strong>TURBOSTAFF SERVICES</strong> is a sole proprietorship business that provides a full range of messenger services in Metro Manila and some provinces of Luzon, Visayas, and Mindanao that focuses on providing professional, classified, high-quality service, customer satisfaction, and reliable partner for all your needs. We offer economical service without compromising the quality of our service.
         </p>
         <p class="text-white">We find ways to improve our ability to add value to our services. We search for every possible opportunity to reduce costs and increase productivity. We take great pride in being a customer-oriented organization, making sure that our customers are satisfied with the tasks we execute for them. Every client is treated not just as customers but as partners, with this approach it has led them to be the preferred vendor for their needs.</p>
+
       </div>
     </div>
   </div>
@@ -103,7 +110,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
   <div class="banner2">
     <div class="layer section d-flex align-items-center justify-content-center">
-      <h1 class="text-accent" style="text-shadow: 2px 2px 10px black;">TURBOSTAFF IS TRUE TO SERVICE</h1>
+      <h1 class="text-primary" style="text-shadow: 2px 2px 10px black;">TURBOSTAFF IS ALWAYS TRUE TO SERVICE</h1>
     </div>
   </div>
 
@@ -119,7 +126,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="col-2 col-md-2 col-lg-2"><hr class="hr-title"></div>
           </div>
         </div>
-        <h1 class="text-center text-primary my-5">WE ALWAYS AIM TO EXCEED CLIENT'S EXPECTATIONS.</h1>
+        <h1 class="text-center text-primary my-5">WE AIM TO EXCEED CLIENT'S EXPECTATIONS.</h1>
         <p class="text-center text-secondary">No matter what business you have, our team can do everything for you.</p>
       </div>
     </div>
@@ -147,6 +154,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
   </div>
 
+  <img class="group" src="images/group-photo.jpg" alt="">
+
   <div id="contact" class="contact-us section container-fluid">
     <div class="row justify-content-center mb-4">
       <div class="col-lg-7">
@@ -171,11 +180,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
           <hr>
           <i class="fas fa-phone-alt"></i>
           <p class="d-inline ms-2">027-980-1411</p><br>
-          <i class="fas fa-phone-alt text-secondary"></i>
+          <i class="fas fa-phone-alt" style="color:white"></i>
           <p class="d-inline ms-2">0917-962-2205</p><br>
           <i class="fas fa-envelope"></i>
           <p class="d-inline ms-2">turbostaff.ph@gmail.com</p><br>
-          <i class="fas fa-envelope text-secondary"></i>
+          <i class="fas fa-envelope" style="color:white"></i>
           <p class="d-inline ms-2">book@turbostaffservices.com</p><br>
         </div>
         <div class="col-md-6 email p-4">
