@@ -21,6 +21,15 @@ h6 {
 	font-weight: 200;
 }
 
+@media only screen and (max-width: 576px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+
+
+
 /*navbar*/
 .navbar {
 	padding-left: 3em;
@@ -45,8 +54,19 @@ h6 {
 }
 
 
+@media only screen and (max-width: 992px) {
+  .navbar {
+  	padding-left: 0;
+  	padding-right: 0;
+  }
+}
+
+
+
 .banner {
 	background-image: url('images/box.jpg');
+	background-position: center center;
+	/*background-attachment: fixed;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 90vh;
@@ -100,6 +120,15 @@ h6 {
 	width: 75%;
 }
 
+.contact-us {
+	padding-bottom: 7em;
+	padding-top: 7em;
+}
+@media only screen and (max-width: 576px) {
+  .contact-us {
+    padding-top: 2.5em;
+  }
+}
 
 .contact-us .hr-title {
 	border-top-color: #4c4845;
@@ -112,6 +141,13 @@ h6 {
 	height: auto;
 	/*margin-top: 10em;*/
 }
+
+@media only screen and (min-width: 768px) {
+	.border-seperator {
+		border-left: 1px solid #1072B0;
+	}
+}
+
 
 
 /*bootstrap*/

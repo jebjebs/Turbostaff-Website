@@ -1,14 +1,3 @@
-<?php     
-if($_SERVER["REQUEST_METHOD"] == "POST") {
-  $to_email = 'turbostaff.ph@gmail.com';
-  $subject = 'Customer inquiry';
-  $message = $_REQUEST['message'];
-  $sender = $_REQUEST['email'];
-  $headers = 'From: '.$sender;
-  mail($to_email,$subject,$message,$headers);
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +75,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
   <div class="section">
     <div class="container-md mission text-center">
-      <div class="row justify-content-around mb-4 g-4">
+      <div class="row justify-content-around mb-4 g-5">
         <div class="col-sm-4">
           <i class="fas fa-crosshairs text-secondary"></i>
           <h4 class="my-4 text-secondary">Mission</h4>
@@ -98,7 +87,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
           <p class="text-dark">Our vision is to become the leading messenger service provider nationwide. To provide unrivaled courier services with the aim of providing high-quality standards that meets the changing nature of the industry.</p>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mt-5">
         <div class="col-sm-4">
           <i class="fas fa-medal text-secondary"></i>
           <h4 class="my-4 text-secondary">Core Values</h4>
@@ -109,7 +98,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
 
   <div class="banner2">
-    <div class="layer section d-flex align-items-center justify-content-center">
+    <div class="layer section d-flex align-items-center justify-content-center text-center">
       <h1 class="text-primary" style="text-shadow: 2px 2px 10px black;">TURBOSTAFF IS ALWAYS TRUE TO SERVICE</h1>
     </div>
   </div>
@@ -156,13 +145,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
   <img class="group" src="images/group-photo.jpg" alt="">
 
-  <div id="contact" class="contact-us section container-fluid">
+  <div id="contact" class="contact-us container-fluid">
     <div class="row justify-content-center mb-4">
       <div class="col-lg-7">
         <div class="container-fluid">
           <div class="row justify-content-center">
             <div class="col-2 col-md-2 col-lg-2"><hr class="hr-title"></div>
-            <div class="col-3 col-md-2 col-lg-4 col-xl-3 col-xxl-2">
+            <div class="col-4 col-md-2 col-lg-4 col-xl-3 col-xxl-2">
               <h6 class="text-center section-title text-secondary">CONTACT US</h6>
             </div>
             <div class="col-2 col-md-2 col-lg-2"><hr class="hr-title"></div>
@@ -173,11 +162,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
       </div>
     </div>
     <div class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-md-6 p-5">
-          <h2 id="contact-nums" class="text-secondary">Contact Us</h2>
+      <div class="row justify-content-between">
+        <h2 id="contact-nums" class="text-secondary">Contact Us</h2>
+        <div class="col-md-7">
           <p class="text-secondary">Your opinions are important to us. Whether it is a simple question or a valuable suggestion, we are here 24/7. You can call us by phone or email us directly.</p>
-          <hr>
+        </div>
+        <hr class="d-md-none">
+        <div class="border-seperator col-md-5 mb-3">
           <i class="fas fa-phone-alt"></i>
           <p class="d-inline ms-2">027-980-1411</p><br>
           <i class="fas fa-phone-alt" style="color:white"></i>
@@ -187,24 +178,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
           <i class="fas fa-envelope" style="color:white"></i>
           <p class="d-inline ms-2">book@turbostaffservices.com</p><br>
         </div>
-        <div class="col-md-6 email p-4">
-          <h5 class="mb-3">EMAIL US</h5>
-          <form method="post" action="index.php">
-            <div class="mb-3">
-              <label for="name" class="form-label">Name*</label>
-              <input type="text" class="form-control" name="name" id="name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email*</label>
-              <input type="email" class="form-control" name="email" id="email" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Your Message*</label>
-              <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
-            </div>
-            <div class="d-grid"><button type="submit" class="btn btn-primary rounded-pill fw-bolder">SUBMIT</button></div>
-          </form>
-        </div>
+        <img src="images/motorcycle2.jpg" class="img-fluid" alt="">
       </div>
     </div>
   </div>
@@ -212,13 +186,5 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/34a54bc82b.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  <script>
-    if ( window.history.replaceState ) {
-      window.history.replaceState( null, null, window.location.href );
-    }
-  </script>
-  <script>
-
-  </script>
 </body>
 </html>
