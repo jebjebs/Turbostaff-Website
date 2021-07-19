@@ -61,7 +61,7 @@
           </div>
         </div>
         <h1 class="text-center text-primary my-5">ECONOMICAL SERVICE WITHOUT COMPROMISE.</h1>
-        <video width="100%" height="auto" poster="images/vid-poster.png" controls>
+        <video width="100%" height="auto" poster="images/vid-poster.png" preload="metadata" controls>
           <source src="images/turbo-vid.mp4" type="video/mp4">
         </video>
         <p class="text-white mt-4">
@@ -121,29 +121,29 @@
     </div>
     <div class="row offers mt-5 justify-content-center gy-5">
       <div class="col-sm-5 text-center px-5">
-        <img src="images/sc1.png" class="img-fluid" alt="Payment / Transactions">
+        <img src="images/sc1.png" class="img-fluid" alt="Payment / Transactions" loading="lazy">
         <h4 class="my-4 text-secondary">Transactions</h4>
         <p class="text-secondary">We transact for notary and permit submissions to FDA,BOQ, OMB and other Government Agencies.</p>
       </div>
       <div class="col-sm-5 text-center px-5">
-        <img src="images/sc2.png" class="img-fluid" alt="Printer">
+        <img src="images/sc2.png" class="img-fluid" alt="Printer" loading="lazy">
         <h4 class="my-4 text-secondary">Printing</h4>
         <p class="text-secondary">For your documents, we print and photocopy for your site needs.</p>
       </div>
       <div class="col-sm-5 text-center px-5">
-        <img src="images/briefcase.png" class="img-fluid" alt="Briefcase">
+        <img src="images/briefcase.png" class="img-fluid" alt="Briefcase" loading="lazy">
         <h4 class="my-4 text-secondary">Insurance</h4>
         <p class="text-secondary">We guarantee optimum protection for your valuable items.</p>
       </div>
       <div class="col-sm-5 text-center px-5">
-        <img src="images/fast-delivery.jpg" class="img-fluid" alt="Fast Delivery Nationwide!">
+        <img src="images/fast-delivery.jpg" class="img-fluid" alt="Fast Delivery Nationwide!" loading="lazy">
         <h4 class="my-4 text-secondary">Nationwide</h4>
         <p class="text-secondary">We deliver to all major sites and hospitals in the Philippines.</p>
       </div>
     </div>
   </div>
 
-  <img class="group" src="images/group-photo.jpg" alt="">
+  <img class="group" src="images/group-photo.jpg" alt="Turbostaff Employees" loading="lazy">
 
   <div id="contact" class="contact-us container-fluid">
     <div class="row justify-content-center mb-4">
@@ -178,7 +178,7 @@
           <i class="fas fa-envelope" style="color:white"></i>
           <p class="d-inline ms-2">book@turbostaffservices.com</p><br>
         </div>
-        <img src="images/motorcycle2.jpg" class="img-fluid" alt="">
+        <img src="images/motorcycle2.jpg" class="img-fluid" alt="Turbostaff Employee" loading="lazy">
       </div>
     </div>
   </div>
