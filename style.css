@@ -64,7 +64,7 @@ h6 {
 
 
 .banner {
-	background-image: url('images/box.jpg');
+	background-image: url('images/box-resized.jpg');
 	background-position: center center;
 	/*background-attachment: fixed;*/
 	background-size: cover;
@@ -98,7 +98,7 @@ h6 {
 }
 
 .banner2 {
-	background-image: url(images/motorcycle1.jpg);
+	background-image: url(images/motorcycle1-resized.jpg);
 	height: 80vh;
 	background-size: cover;
 	background-position: top;
@@ -111,7 +111,7 @@ h6 {
 
 
 .what-we-offer {
-	padding-bottom: 13em;
+	/*padding-bottom: 10em;*/
 }
 .what-we-offer .hr-title {
 	border-top: 2px solid #4c4845;
@@ -119,6 +119,8 @@ h6 {
 .offers img {
 	width: 75%;
 }
+
+
 
 .contact-us {
 	padding-bottom: 7em;

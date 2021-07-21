@@ -26,7 +26,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-white py-1 sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/logo2.png" alt="TurboStaff logo"></a>
+      <a class="navbar-brand" href="#"><img src="images/logo2-resized.jpg" alt="TurboStaff logo"></a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
         <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
           </div>
         </div>
         <h1 class="text-center text-primary my-5">ECONOMICAL SERVICE WITHOUT COMPROMISE.</h1>
-        <video width="100%" height="auto" poster="images/vid-poster.png" preload="metadata" controls>
+        <video width="100%" height="auto" poster="images/vid-poster.jpg" preload="metadata" controls>
           <source src="images/turbo-vid.mp4" type="video/mp4">
         </video>
         <p class="text-white mt-4">
@@ -119,7 +119,7 @@
         <p class="text-center text-secondary">No matter what business you have, our team can do everything for you.</p>
       </div>
     </div>
-    <div class="row offers mt-5 justify-content-center gy-5">
+    <div class="row offers my-5 justify-content-center gy-5">
       <div class="col-sm-5 text-center px-5">
         <img src="images/sc1.png" class="img-fluid" alt="Payment / Transactions" loading="lazy">
         <h4 class="my-4 text-secondary">Transactions</h4>
@@ -141,9 +141,13 @@
         <p class="text-secondary">We deliver to all major sites and hospitals in the Philippines.</p>
       </div>
     </div>
+    <div class="container mt-5 pt-5">
+      <img src="images/collage.jpg" class="img-fluid" alt="">
+      <p class="img-caption text-center mt-2 fst-italic">At Turbostaff, we make sure to fulfill your needs, wherever it may take us.</p>
+    </div>
   </div>
 
-  <img class="group" src="images/group-photo.jpg" alt="Turbostaff Employees" loading="lazy">
+  <img class="group" src="images/group-photo-resized.jpg" alt="Turbostaff Employees" loading="lazy">
 
   <div id="contact" class="contact-us container-fluid">
     <div class="row justify-content-center mb-4">
@@ -173,12 +177,14 @@
           <p class="d-inline ms-2">027-980-1411</p><br>
           <i class="fas fa-phone-alt" style="color:white"></i>
           <p class="d-inline ms-2">0917-962-2205</p><br>
+          <i class="fas fa-phone-alt" style="color:white"></i>
+          <p class="d-inline ms-2">0995-661-8000</p><br>
           <i class="fas fa-envelope"></i>
           <p class="d-inline ms-2">turbostaff.ph@gmail.com</p><br>
           <i class="fas fa-envelope" style="color:white"></i>
           <p class="d-inline ms-2">book@turbostaffservices.com</p><br>
         </div>
-        <img src="images/motorcycle2.jpg" class="img-fluid" alt="Turbostaff Employee" loading="lazy">
+        <img src="images/motorcycle2-resized.jpg" class="img-fluid" alt="Turbostaff Employee" loading="lazy">
       </div>
     </div>
   </div>
